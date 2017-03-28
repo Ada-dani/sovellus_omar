@@ -1,0 +1,22 @@
+#define MIN_RESISTANCE 1
+#define MAX_RESISTANCE 10000
+#define MIN_VOLTAGE 0
+#define MAX_VOLTAGE 48
+int main()
+{
+int Resistance;
+int Voltage;
+float Current;
+float Powerloss;
+	printf("Give me the Resistance between %d and %d:\n",MIN_RESISTANCE, MAX_RESISTANCE);
+	scanf("%d,&Resistance");
+{
+while(fgets(MIN_RESISTANCE < 1 || MAX_RESISTANCE > 10000)!= null)
+
+	printf("fgets error\n");
+	printf("Give me the Resistance between %d and %d:\n",MIN_RESISTANCE, MAX_RESISTANCE);
+	scanf("%d,&resistance");
+}
+{
+while ()
+

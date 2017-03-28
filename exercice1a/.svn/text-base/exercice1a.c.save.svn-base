@@ -1,0 +1,25 @@
+#include <stdio.h>
+#define MIN_RESISTANCE 1
+#define MAX_RESISTANCE 10000
+#define MIN_VOLTAGE 0
+#define MAX_VOLTAGE 48
+int main() 
+{
+int resistance;
+int voltage;
+float current;
+float powerloss;
+	printf ("Give me the resistance between %d and  %d\n", MIN_RESISTANCE , MAX_RESISTANCE);
+	scanf("%d",&resistance);
+	printf("Give me the voltage %d and %d\n", MIN_VOLTAGE , MAX_VOLTAGE);
+	scanf("%d",&voltage);
+current = (float) voltage/resistance;
+powerloss =(float) voltage*current;
+	printf("%.3f",current);
+	printf("%.3f",powerloss);
+printf("resistance with %d ohm and voltage with 
+%d volt, current is A %f and powerloss is W's %f\n", resistance, voltage, current, powerloss);
+
+}
+
+

@@ -1,0 +1,122 @@
+/***************************************************************************
+ *   Copyright (C) $YEAR$ by $AUTHOR$   *
+ *   $EMAIL$   *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program; if not, write to the                         *
+ *   Free Software Foundation, Inc.,                                       *
+ *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ ***************************************************************************/
+
+/*********************************************************************
+*
+* 1.  NAME
+*     $Source$ 
+* 2.  DESCRIPTION
+*
+* 6.  VERSIONS
+*       Original:
+*         $Date$ / $Author$
+*
+*       Version history:
+*       $Log$
+*
+**********************************************************************/
+
+/*-------------------------------------------------------------------*
+*    HEADER FILES                                                    *
+*--------------------------------------------------------------------*/
+#include <stdio.h>
+
+/*-------------------------------------------------------------------*
+*    GLOBAL VARIABLES                                                *
+*--------------------------------------------------------------------*/
+/* Control flags */
+#define DEBUG
+#define MAX_TABLE 500
+#define MIN_TABLE 1
+
+/* Globaal constants */
+
+/* Globaal variables */
+
+/* Globaal structures */
+
+/*-------------------------------------------------------------------*
+*    FUNCTION PROTOTYPES                                             *
+*--------------------------------------------------------------------*/
+int ask_integer_number(int min, int max);
+void ask_product(int table[]);
+void print_products(int table[]);
+/*********************************************************************
+*    MAIN PROGRAM                                                      *
+**********************************************************************/
+int main(void)
+{
+int jatko;
+int product[MAX_TABLE];
+
+do
+{
+ask_product(product);
+printf("Jatketaanko ?");
+}
+while(jatko!='n');
+{
+print_products();
+}
+
+/* end of main */
+
+/*********************************************************************
+*    FUNCTIONS                                                     *
+**********************************************************************/
+
+
+/*********************************************************************
+;	F U N C T I O N    D E S C R I P T I O N
+;---------------------------------------------------------------------
+; NAME:
+; DESCRIPTION:
+;	Input:
+;	Output:
+;  Used global variables:
+; REMARKS when using this function:
+;*********************************************************************/
+
+void ask_product(int table[]);
+{
+int tuotenro;kpl;
+printf("Anna tuotenro");
+scanf("%d", &tuotenro);
+
+
+}
+int ask_integer_product(int min, int max)
+{
+int product;
+scanf("%d", &product);
+while (product < min || product > max)
+{
+printf("Anna tuoteen %d numero", tuotennro);
+scanf("%d", &kpl");
+tabe[tuotenro]=kpl;
+}
+return product;
+}
+
+void print_products(int table[]);
+{
+for(i=0 ; i<MAX_TABLE; i++);
+printf("tuoteen %%d kpl\n",i,table[i]);
+}
